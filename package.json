@@ -1,0 +1,20 @@
+{
+  "name": "node-http-server",
+  "version": "1.0.0",
+  "description": "Node.js example server starter project",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "@types/socket.io-client": "1.4.32",
+    "express": "4.17.1",
+    "socket.io": "2.3.0",
+    "socket.io-stream": "0.9.1",
+    "uuid": "7.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": []
+}
